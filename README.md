@@ -102,10 +102,14 @@ Several machine learning models were tested and compared.
 ### Regression Models
 
 * Linear Regression
-* K-Nearest Neighbors Regressor
+* SGDRegressor
+* Ridge
+* Lasso 
+* ElasticNet
 * Decision Tree Regressor
 * Random Forest Regressor
 * Gradient Boosting / XGBoost Regressor
+* Neural Network implemented with **TensorFlowe**
 * Neural Network implemented with **PyTorch**
 
 ### Classification Models
@@ -115,6 +119,7 @@ Several machine learning models were tested and compared.
 * Naive Bayes
 * Decision Tree
 * Random Forest Classifier
+* Support Vector Machine (SVC)
 * XGBoost Classifier
 * Neural Network implemented with **PyTorch**
 
