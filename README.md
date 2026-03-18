@@ -65,7 +65,7 @@ To demonstrate classification techniques, the regression labels were converted i
 * Values **above the median → High energy load**
 * Values **below the median → Low energy load**
 
-Notebook:
+Notebook: 
 
 ```
 energy_efficient_class.ipynb
