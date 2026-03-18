@@ -102,7 +102,6 @@ Several machine learning models were tested and compared.
 ### Regression Models
 
 * Linear Regression
-* SGDRegressor
 * Ridge
 * Lasso 
 * ElasticNet
@@ -123,6 +122,19 @@ Several machine learning models were tested and compared.
 * XGBoost Classifier
 * Neural Network implemented with **PyTorch**
 
+
+## Skills Demonstrated
+
+This project demonstrates practical machine learning workflow:
+
+* Data Analysis (EDA)
+* Data Preprocessing
+* Regression Modeling
+* Classification Modeling
+* Model Evaluation
+* Neural Networks with **PyTorch**
+* Neural Networks with **TensroFlow**
+
 ---
 
 ## Results
@@ -134,7 +146,6 @@ Key observations:
 * Most models achieved **very strong predictive performance**
 * Classification models achieved **accuracy above 99%**
 * Tree-based models and ensemble methods performed particularly well
-
 ---
 
 
@@ -148,30 +159,5 @@ Example libraries used:
 * xgboost
 * **PyTorch**
 * **TensorFlow**
-
----
-
-## Skills Demonstrated
-
-This project demonstrates practical machine learning workflow:
-
-* Data Analysis (EDA)
-* Data Preprocessing
-* Regression Modeling
-* Classification Modeling
-* Model Evaluation
-* Neural Networks with **PyTorch**
-
----
-
-## Future Improvements
-
-Possible future improvements include:
-
-* Cross-validation for more robust evaluation
-* Hyperparameter optimization
-* Feature importance analysis
-* Model explainability (SHAP / LIME)
-* Deployment as a simple API
 
 ---
