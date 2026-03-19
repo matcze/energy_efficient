@@ -108,8 +108,8 @@ Several machine learning models were tested and compared.
 * Decision Tree Regressor
 * Random Forest Regressor
 * Gradient Boosting / XGBoost Regressor
-* Neural Network implemented with **TensorFlowe**
-* Neural Network implemented with **PyTorch**
+* Linear and Neural Network models implemented with **TensorFlow**
+* Linear and Neural Network models implemented with **PyTorch**
 
 ### Classification Models
 
@@ -137,27 +137,27 @@ This project demonstrates practical machine learning workflow:
 
 ---
 
-## Results
-
-The dataset shows **strong correlations between building design features and energy loads**, which makes the prediction task relatively straightforward for many machine learning models.
-
-Key observations:
-
-* Most models achieved **very strong predictive performance**
-* Classification models achieved **accuracy above 99%**
-* Tree-based models and ensemble methods performed particularly well
----
-
-
 Example libraries used:
 
 * numpy
 * pandas
-* scikit-learn
 * matplotlib
 * seaborn
+* scikit-learn
 * xgboost
 * **PyTorch**
 * **TensorFlow**
 
 ---
+
+## Results
+
+The dataset exhibits strong correlations between building design features and energy loads, making the prediction task relatively straightforward for many machine learning models.
+
+Key observations:
+* Most models achieved very strong predictive performance.
+* Classification models reached accuracy levels above 99%.
+* Tree-based models and ensemble methods performed particularly well.
+* The relatively small dataset may lead to overfitting, especially for tree-based models, which can learn the training data too closely.
+* Feature engineering was not necessary, as the models achieved near-perfect performance without it.
+* Feature scaling using StandardScaler improved the performance of several models.
